@@ -15,5 +15,7 @@ if [ $? -eq 0 ] ; then
     exit 0
 else
     # git is not installed
+    echo "git is not installed."
+    echo "please install git."
     exit 1
 fi
